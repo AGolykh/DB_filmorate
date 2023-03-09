@@ -32,10 +32,10 @@ CREATE TABLE "user" (
 );
 
 CREATE TABLE "friendship" (
-  "friend_id" bigint PRIMARY KEY NOT NULL,
   "user_1" bigint NOT NULL,
   "user_2" bigint NOT NULL,
-  "status" boolean NOT NULL
+  "status" boolean NOT NULL,
+  PRIMARY KEY ("user_1", "user_2")
 );
 
 CREATE TABLE "like" (
