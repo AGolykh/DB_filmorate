@@ -1,5 +1,5 @@
 
-![DB-Scheme](https://i.ibb.co/zRnS2Jc/DB-scheme.jpg)
+![DB-Scheme](https://github.com/AGolykh/DB_filmorate/blob/master/DB_scheme.JPG)
 
 Films ---
 
